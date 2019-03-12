@@ -239,7 +239,7 @@ namespace ShiftReduceParser
                         break;
                 }
             }
-            if (fail == false)
+            if (!fail)
             {
                 parsingSteps += "ACCEPT";
                 Console.WriteLine(parsingSteps);
